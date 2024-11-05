@@ -1,0 +1,399 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+:root
+{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.container
+{
+    background: url(images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    margin: auto;
+    font-family: sans-serif;
+    /* border: solid red 5px; */
+    position: relative;
+}
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 15px;
+}
+.hed
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 22px;
+    /* border: solid; */
+}
+ul
+,li
+{
+    display: inline-block;
+    word-spacing: 35px;
+    margin-right: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.ho
+,.para-2 .underline 
+,.para-4 .underline 
+,.co .underline
+{
+    border-bottom: solid 5px #ff2953;
+}
+a:hover
+{
+    border-bottom: solid 3px #ff2953;
+}
+.fa-magnifying-glass
+{
+    color: white;
+    font-size: 20px;
+}
+.para
+{
+    /* border: solid; */
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    top: 100px;
+    left: calc((100% - 70%)/2);
+    color: white;
+    margin-top: 40px;
+}
+.para h1 , h2 , h3 
+{
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.para h3
+{
+    font-size: 1.5rem;
+}
+.para h2
+{
+    font-size: 2.2rem;
+}
+.para h1
+{
+    font-size: 3.5rem;
+}
+.para p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.para button
+{
+    width: 170px;
+    margin: 50px;
+    background: transparent;
+    height: 40px;
+    color: white;
+    border: solid 1px white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.para button:hover 
+,.para-3 button:hover
+{
+    background: #eee;
+    color: black;
+}
+.container-2
+{
+    background: url(images/us-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -10px;
+    height: 130vh;
+}
+.para-2
+{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.para-2 h2
+{
+    line-height: 50px;
+}
+.us
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.us h2
+{
+    font-size: 1rem;
+}
+.box
+{
+    text-align: center;
+    margin: 22px;
+    width: 20%;
+    /* border: solid red; */
+}
+.healthy
+{
+    background: url(images/healthy-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -10px;
+    height: 85vh;
+}
+.para-3
+{
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    font-family: sans-serif;
+    /* border: solid red; */
+}
+.para-3 h2
+{
+    line-height: 50px;
+}
+.para-3 p
+{
+    margin-top: 25px;
+    font-size: 18px
+}
+.para-3 button ,
+.co button
+{
+    width: 170px;
+    margin: 50px;
+    background: transparent;
+    height: 40px;
+    color: white;
+    border: solid 1px white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.trainers
+{
+    background: url(images/trainer-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 140vh;
+}
+.para-4
+{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+.container-3
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+}
+.name
+{
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.container-3 img
+{
+    border-radius: 10px;
+}
+.container-3 img:hover
+{
+    transform: scale(0.9);
+}
+.boox
+{
+    position: relative; 
+    width: 33.3333;
+}
+.container-3 .social
+{
+    background: white;
+    border-radius: 50px;
+    width: 220px;
+    word-spacing: 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    top: 420px;
+    left: 80px;
+}
+.contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    background: #27223f;
+}
+.contact img
+{
+    width: 650px;
+    height: 600px;
+}
+.co p
+{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.co input
+{
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+}
+.co input:focus
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.co
+{
+    display: block;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.co .message
+{
+    height: 100px;
+}
+.co button
+{
+    margin: 50px 0 0 280px;
+    background: #ff2953;
+    border: none;
+    padding: 10px 65px;
+}
+.info
+{
+    height: 200px;
+    background-color: #252233;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.boxxx
+{
+    margin-top: 30px;
+    color: #eee;
+}
+.boxxx img
+{
+    margin: 20px;
+}
+.boxxx img:hover
+{
+    opacity: 0.5;
+}
+.foot p
+{
+    margin: 20px;
+    text-align: center;
+    color: rgb(46, 44, 44);
+}
+.up
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #ff2953;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: arial , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+@media (max-width:768px){
+    .continue a{
+        width: 80%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    .continue i{
+        margin-top: 5px;
+    }
+    .trainers{
+        width: 100%;
+        height: 320vh;
+    }
+    .boox{
+        margin: 10px;
+    }
+    .img-5
+    {
+        width:100%;
+    }
+    .img-5 img {
+        width: 100%;
+    }
+    .co{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    form input{
+        width: 50%;
+    }
+    .healthy{
+        height: 300vh;
+    }
+    .healthy{
+        height: 100vh;
+    }
+    .container-2{
+        width: 100%;
+    }
+    .box{
+        width: 40%;
+    }
+}
